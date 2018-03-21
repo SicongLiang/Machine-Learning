@@ -1,0 +1,40 @@
+1.1 Welcome
+Machine Learning
+  - Grew out of work in AI
+  - New capability for computers
+  
+  Examples:
+    - Database mining
+        Large datasets from growth of automation/web.
+        E.g., Web click data, medical records, biology, engineering
+    - Applications can't program by hand.
+        E.g., Autonomous helicopter, handwriting recognition, most of Natural Language Processing(NLP), Computer Vison.
+    - Self-customizing programs(用户自定制化程序) software learn by itself
+        E.g., Amazon, Netflix product recommendations
+    - Understanding human learning(brain, real AI).
+--------------------------------------------------------------------------------------------------------------------------------------- 
+1.2 What is Machine Learning?
+Definition: (1)Field of study that gives computers that ability to learn without being explicitly programmed. (Arthur Samuel 1959)
+(2)"A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance
+on T, as measured by P, improves with experience E."
+E.g., T: Classifying emails as spam(垃圾邮件) or not spam.  E: Watching you label emails as spam or not spam.  P: The number(or fraction)
+of emails correctly classified as spam/not spam.
+
+Machine learning algorithms: （most used）
+  - Supervised learning(监督学习)
+  - Unsupervised learning(无监督学习)
+In general, any machine learning problem can be assigned to one of two broad classifications:
+  - Supervised learning and Unsupervised learning.
+
+Others: Reinforcement learning, recommender systems. (Also ML algorithms)
+Also talk about: Practical advice for applying learning algorithms. (takes a lot of time too!)
+---------------------------------------------------------------------------------------------------------------------------------------
+1.3 Supervised Learning(监督学习)
+E.g., Housing price prediction: 用一次函数还是二次函数来拟合
+Supervised Learning: "right answers" given
+That is, we gave it a data set of houses in which for every example in this data set, we told it what is the right price so what is the
+actual price that, that house sold for and the toss of the algorithm was to just produce more of these right answers such as for this 
+new house, you know, that your friend may be trying to sell.
+Define with a bit more terminology: Regression(回归问题): Predict continuous valued output(price)
+
+E.g., Breast cancer(malignant, benign)
