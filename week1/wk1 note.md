@@ -38,12 +38,12 @@ That is, we gave it a data set of houses in which for every example in this data
 actual price that, that house sold for and the toss of the algorithm was to just produce more of these right answers such as for this 
 new house, you know, that your friend may be trying to sell.
 Define with a bit more terminology: 
-Regression(回归问题): Predict continuous valued output(price)
+ - Regression(回归问题): Predict continuous valued output(price)
 
 ![PPT1](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/1.JPG)
 
 E.g., Breast cancer(malignant(恶性的), benign(良性的))
-Classification(分类问题): Discrete valued output(0 or 1)
+ - Classification(分类问题): Discrete valued output(0 or 1)
 
 ![PPT2](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/2.JPG)
 
