@@ -12,6 +12,7 @@ Machine Learning
     - Self-customizing programs(用户自定制化程序) software learn by itself
         E.g., Amazon, Netflix product recommendations
     - Understanding human learning(brain, real AI).
+
 --------------------------------------------------------------------------------------------------------------------------------------- 
 1.2 What is Machine Learning?
 Definition: (1)Field of study that gives computers that ability to learn without being explicitly programmed. (Arthur Samuel 1959)
@@ -28,6 +29,7 @@ In general, any machine learning problem can be assigned to one of two broad cla
 
 Others: Reinforcement learning, recommender systems. (Also ML algorithms)
 Also talk about: Practical advice for applying learning algorithms. (takes a lot of time too!)
+
 ---------------------------------------------------------------------------------------------------------------------------------------
 1.3 Supervised Learning(监督学习)
 E.g., Housing price prediction: 用一次函数还是二次函数来拟合
@@ -35,7 +37,29 @@ Supervised Learning: "right answers" given
 That is, we gave it a data set of houses in which for every example in this data set, we told it what is the right price so what is the
 actual price that, that house sold for and the toss of the algorithm was to just produce more of these right answers such as for this 
 new house, you know, that your friend may be trying to sell.
-Define with a bit more terminology: Regression(回归问题): Predict continuous valued output(price)
-![](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/1.JPG)
+Define with a bit more terminology: 
+Regression(回归问题): Predict continuous valued output(price)
 
-E.g., Breast cancer(malignant, benign)
+![PPT1](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/1.JPG)
+
+E.g., Breast cancer(malignant(恶性的), benign(良性的))
+Classification(分类问题): Discrete valued output(0 or 1)
+
+![PPT2](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/2.JPG)
+
+In other ML problems, we have more than one feature, more than one attribute.
+
+![PPT3](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/3.JPG)
+PS: O stands for benign, and X stands for malignant
+Learning algorithm might do is throw the straight line through the data to try to separate out the malignant rumors from the benign ones
+- Clump Thickness(块的厚度)
+- Uniformity of Cell Szie
+- Uniformity of Cell Shape
+
+And it turns out one of the most interesting learning algorithms that we'll see in this class is a learning algorithm that can deal with, not just two or three or five features, but an infinite number of features.
+E.g., Support Vector(支持向量机) algorithm: 存在一个简洁的数学方法，能让电脑处理无限多的特征。
+
+Recap: Supervised learning, in every example in our data set(训练集), we are told what is the "correct answer" that we would have quite liked the algorithms have predicted on that example.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+1.4 Unspervised Learning
