@@ -87,3 +87,24 @@ Cocktail party problem  分离音频（两个人说话、一个人在音乐背�
 ![PPT8](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/8.JPG)
 ![PPT9](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/9.JPG)
 - Octave to first prototype the learning algorithm
+
+---------------------------------------------------------------------------------------------------------------------------------------
+2.1 Model Representation
+- First algorithm: Liner regression(线性回归) to know the overall process of supervised learning
+
+![PPT10](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/10.JPG)
+E.g., Housing Prices
+
+Training set(训练集) and Notations 
+![PPT11](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/11.JPG)
+
+![PPT12](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/12.JPG)
+E.g., Univariate(One variable) linear regression
+
+---------------------------------------------------------------------------------------------------------------------------------------
+2.2 Cost Functio(代价函数)
+- Figure out how to fit the best possible straight line to our data 
+We can measure the accuracy of our hypothesis function by using a cost function. This takes an average difference (actually a fancier version of an average) of all the results of the hypothesis with inputs from x's and the actual output y's.
+
+![PPT13](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/13.JPG)
+- cost function(squared error function平方误差函数, squared error cost function平方误差代价函数)
