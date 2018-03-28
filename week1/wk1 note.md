@@ -69,6 +69,10 @@ Recap: Supervised learning, in every example in our data set(训练集), we are 
 - We can derive this structure by clustering the data based on relationships among the variables in the data.
 - With unsupervised learning there is no feedback based on the prediction results.
 
+Example:
+ - Clustering: Take a collection of 1,000,000 different genes, and find a way to automatically group these genes into groups that are somehow similar or related by different variables, such as lifespan, location, roles, and so on.
+ - Non-clustering: The "Cocktail Party Algorithm", allows you to find structure in a chaotic environment. (i.e. identifying individual voices and music from a mesh of sounds at a cocktail party).
+
 ![PPT5](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/5.JPG)
 E.g., Google News automatically cluster them together
 
@@ -83,6 +87,3 @@ Cocktail party problem  分离音频（两个人说话、一个人在音乐背�
 ![PPT8](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/8.JPG)
 ![PPT9](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/9.JPG)
 - Octave to first prototype the learning algorithm
-
-- Clustering: Take a collection of 1,000,000 different genes, and find a way to automatically group these genes into groups that are somehow similar or related by different variables, such as lifespan, location, roles, and so on.
-- Non-clustering: The "Cocktail Party Algorithm", allows you to find structure in a chaotic environment. (i.e. identifying individual voices and music from a mesh of sounds at a cocktail party).
