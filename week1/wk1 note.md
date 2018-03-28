@@ -63,3 +63,23 @@ Recap: Supervised learning, in every example in our data set(训练集), we are 
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 1.4 Unspervised Learning
+
+![PPT4](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/4.JPG)
+- Unsupervised learning allows us to approach problems with little or no idea what our results should look like. We can derive structure from data where we don't necessarily know the effect of the variables.
+- We can derive this structure by clustering the data based on relationships among the variables in the data.
+- With unsupervised learning there is no feedback based on the prediction results.
+
+![PPT5](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/5.JPG)
+E.g., Google News automatically cluster them together
+
+![PPT6](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/6.JPG)
+E.g., Understanding genomic. Measure how much they do or do not have a certain gene.
+
+![PPT7](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/7.JPG)
+E.g., Other applications: Organize computing clusters, social network analysis, market segmentation and astronomical data analysis
+
+Cocktail party problem  分离音频（两个人说话、一个人在音乐背景下说话）
+
+![PPT8](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/8.JPG)
+![PPT9](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/9.JPG)
+- Octave to first prototype the learning algorithm
