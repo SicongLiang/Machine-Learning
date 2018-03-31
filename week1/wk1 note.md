@@ -102,9 +102,41 @@ Training set(训练集) and Notations
 E.g., Univariate(One variable) linear regression
 
 ---------------------------------------------------------------------------------------------------------------------------------------
-2.2 Cost Functio(代价函数)
+2.2 Cost Function(代价函数)
 - Figure out how to fit the best possible straight line to our data 
 We can measure the accuracy of our hypothesis function by using a cost function. This takes an average difference (actually a fancier version of an average) of all the results of the hypothesis with inputs from x's and the actual output y's.
 
 ![PPT13](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/13.JPG)
 - cost function(squared error function平方误差函数, squared error cost function平方误差代价函数)
+
+---------------------------------------------------------------------------------------------------------------------------------------
+2.3 Cost Function - Intuition I
+- If we try to think of it in visual terms, our training data set is scattered on the x-y plane. We are trying to make a straight line (defined by hθ(x)) which passes through these scattered data points.
+
+Our objective is to get the best possible line. The best possible line will be such so that the average squared vertical distances of the scattered points from the line will be the least. Ideally, the line should pass through all the points of our training data set. In such a case, the value of J(θ0,θ1) will be 0. The following example shows the ideal situation where we have a cost function of 0.
+
+![PPT14](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/14.JPG)
+
+When θ1=1, we get a slope of 1 which goes through every single data point in our model. Conversely, when θ1=0.5, we see the vertical distance from our fit to the data points increase.
+
+![PPT15](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/15.jpg)
+
+This increases our cost function to 0.58. Plotting several other points yields to the following graph:
+![PPT16](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/16.jpg)
+
+Thus as a goal, we should try to minimize the cost function. In this case, θ1=1 is our global minimum.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+2.4 Cost Function - Intuition II
+- A contour plot is a graph that contains many contour lines. A contour line of a two variable function has a constant value at all points of the same line. An example of such a graph is the one to the right below.
+![PPT17](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/17.jpg)
+
+Taking any color and going along the 'circle', one would expect to get the same value of the cost function. For example, the three green points found on the green line above have the same value for J(θ0,θ1) and as a result, they are found along the same line. The circled x displays the value of the cost function for the graph on the left when θ0 = 800 and θ1= -0.15. Taking another h(x) and plotting its contour plot, one gets the following graphs:
+![PPT18](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/18.jpg)
+
+When θ0 = 360 and θ1 = 0, the value of J(θ0,θ1) in the contour plot gets closer to the center thus reducing the cost function error. Now giving our hypothesis function a slightly positive slope results in a better fit of the data.
+![PPT19](https://github.com/SicongLiang/Machine-Learning/blob/master/week1/19.jpg)
+
+The graph above minimizes the cost function as much as possible and consequently, the result of θ1 and θ0 tend to be around 0.12 and 250 respectively. Plotting those values on our graph to the right seems to put our point in the center of the inner most 'circle'.
+
+---------------------------------------------------------------------------------------------------------------------------------------
